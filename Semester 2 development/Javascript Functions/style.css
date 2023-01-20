@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-color: #f9f9f9;
+     font-family: 'Proxima Nova';
+}
+
+.intro-section{
+    background-color: #5386E4;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.intro-section h1{
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.main-section{
+    height: 350px;
+    display: flex;
+}
+
+.main-section .info-part1{
+    background-color: #f9f9f9;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section .info-part1 h2{
+    color: #5386E4;
+    font-size: 42px;
+}
+
+.main-section .info-part1 p{
+    color: #5386E4;
+    font-size: 18px;
+}   
+
+.main-section .info-part1 button{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 225ms;
+    background-color: #5386E4;
+    border: none;
+    color: #ffffff;
+}
+
+.main-section .info-part1 button:hover{
+    background-color: #f9f9f9;
+    box-shadow: 6px 9px 2px 2px rgba(0,0,0,0.1);
+    color: #5386E4;
+}
+
+.main-section .java-part1{
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section .java-part1 h2{
+    color: #5386E4;
+    font-size: 42px;
+}
+
+.main-section .java-part1 p{
+    font-size: 18px;
+}
+
+.main-section .info-part2{
+    background-color: #f9f9f9;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section .info-part2 button{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 225ms;
+    background-color: #5386E4;
+    border: none;
+    color: #ffffff;
+}
+
+.main-section .info-part2 button:hover{
+    background-color: #f9f9f9;
+    color: #5386E4;
+    box-shadow: 6px 9px 2px 2px rgba(0,0,0,0.1);
+}
+
+.main-section .java-part2{
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section .java-part2 h2{
+    color: #5386E4;
+    font-size: 42px;
+}
+
+.main-section .java-part2 p{
+    font-size: 18px;
+}
+
+.main-section .info-part2 h2{
+    color: #5386E4;
+    font-size: 42px;
+}
+
+.main-section .info-part2 p{
+    color: #5386E4;
+    font-size: 18px;
+}
+
+
+
+
+
+.main-section .info-part3{
+    background-color: #f9f9f9;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section .info-part3 button{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 225ms;
+    background-color: #5386E4;
+    border: none;
+    color: #ffffff;
+}
+
+.main-section .info-part3 button:hover{
+    background-color: #f9f9f9;
+    color: #5386E4;
+    box-shadow: 6px 9px 2px 2px rgba(0,0,0,0.1);
+}
+
+.main-section .java-part3{
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section .java-part3 h2{
+    color: #5386E4;
+    font-size: 42px;
+}
+
+.main-section .java-part3 p{
+    font-size: 18px;
+}
+
+.main-section .info-part3 h2{
+    color: #5386E4;
+    font-size: 42px;
+}
+
+.main-section .info-part3 p{
+    color: #5386E4;
+    font-size: 18px;
+}
+
+
+
+

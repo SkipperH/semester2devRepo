@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-color: #f9f9f9;
+     font-family: 'Fredoka One', cursive;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 375px;
+    cursor: crosshair;
+}
+
+#score {
+    position: fixed;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100px;
+    font-size: 18px;
+    top: 0;
+    right: 0;
+    text-align: end;
+    background-color: #5386E4;
+    border-bottom: 2px solid #5386E4;
+    border-left: 2px solid #5386E4;
+}
+
+#score2{
+    position: fixed;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100px;
+    font-size: 18px;
+    top: 0;
+    right: 0;
+    text-align: end;
+    background-color: #e45353;
+    border-bottom: 2px solid #e45353;
+    border-left: 2px solid #e45353;
+    margin-top: 41px;
+}
+
+.bar {
+    position: absolute;
+    height: 25%;
+}
+
+.bar2 {
+    position: absolute;
+    height: 25%;
+}
+
+#timer{
+    background-color: #4C4B63;
+    color: #f1f1f1;
+    width: 140px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}

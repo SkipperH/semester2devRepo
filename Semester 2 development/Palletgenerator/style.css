@@ -1,0 +1,142 @@
+body {
+    background-color: #ffffff;
+    font-family: 'proxima nova';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.intro-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-section h1{
+    font-size: 52px;
+    color: #5386E4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-section p{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start-button{
+    background-color: #5386E4;
+    color: #f9f9f9;
+    border: #5386E4 3px solid;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: 125ms ease-in-out;
+    font-weight: bold;
+}
+
+.start-button:hover{
+    color: #5386E4;
+    border-color: #5386E4;
+    background-color: transparent;
+    letter-spacing: 1px;
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -99999;
+}
+
+.palet-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.palet-title{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    user-select: none;
+}
+
+.palet-button{
+    position: absolute;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    border: #ffffff;
+    transition: 125ms ease-in-out;
+    background-color: transparent;
+    color: #00ff41;
+}
+
+.background-code{
+    position: absolute;
+    padding: 20px 20px 10px 20px;
+    font-size: 16px;
+    border: #ffffff;
+    transition: 125ms ease-in-out;
+    background-color: transparent;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-code{
+    position: absolute;
+    padding: 20px 20px 10px 20px;
+    font-size: 16px;
+    border: #ffffff;
+    transition: 125ms ease-in-out;
+    background-color: transparent;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.palet-button:hover{
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+    .intro-section h1{
+        text-align: center;
+        
+    }
+
+    .intro-section p{
+        text-align: center;
+        padding-top: 35px;
+        font-size: 19px;
+        font-weight: 600;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 0px;
+    }
+
+    .start-button{
+        font-size: 16px;
+    }
+}
+

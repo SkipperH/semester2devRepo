@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    font-family: 'proxima nova';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#score {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: 'proxima nova';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.safe {
+    display: none;
+    height: 50%;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-size: 52px;
+    color: #5386E4;
+    margin-top: 120px;
+}
+
+p {
+    margin-top: 0px;
+    font-size: 24px;
+    color: #5386E4;
+}
